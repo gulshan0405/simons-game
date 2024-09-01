@@ -1,0 +1,52 @@
+h1{
+   text-align: center;
+}
+h3{
+   text-align: center;
+}
+.btn-container{
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.btn{
+  height: 150px;
+  width: 150px;
+  margin-top: 20px;
+  border: 6px solid black;
+  border-radius: 20px;
+  transition: all 0.2s linear;
+}
+
+.btn:hover{
+    transform: scale(1.02);
+    box-shadow: 2px 2px 6px black;
+}
+
+.pink{
+    background-color: rgb(220, 66, 92) ;
+}
+
+.green{
+    background-color: rgb(57, 183, 128);
+}
+
+.yellow{
+    background-color: rgb(255, 191, 0);
+}
+
+.blue{
+    background-color: rgba(45, 103, 211, 0.862);
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: green;
+}
+
